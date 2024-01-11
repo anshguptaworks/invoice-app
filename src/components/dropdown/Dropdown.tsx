@@ -69,7 +69,12 @@ const Dropdown = ({ checkboxkey }: dropdownProps): JSX.Element => {
       </button>
 
       {isOpen && (
-        <div className="z-10 w-48 bg-white divide-y divide-gray-100 rounded-lg shadow">
+        <div
+          style={{
+            boxShadow: "0px 10px 20px 0px rgba(72, 84, 159, 0.25);",
+          }}
+          className="z-10 w-48 bg-white divide-y divide-gray-100 rounded-lg absolute top-20"
+        >
           <ul
             className="p-3 space-y-4 text-sm text-gray-700 dark:text-gray-200"
             aria-labelledby="dropdownCheckboxButton"

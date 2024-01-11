@@ -52,7 +52,7 @@ const NotFoundPage = () => {
         className="mt-1 md:text-base"
       >
         If you think this is an error, contact our support team at &nbsp;
-        <a className="text-primary" href="#">
+        <a className="text-primary" href="mailto:">
           support@invoiceapp.com?subject=Error%404
         </a>
       </Typography>

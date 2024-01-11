@@ -4,7 +4,6 @@ import Avatar from "../../../../assets/images/avatar.png";
 import React, { useState } from "react";
 import NextImage from "next/image";
 import { useDarkMode } from "@/src/hooks/useDarkMode";
-import motion from "framer-motion";
 
 const Footer = (): JSX.Element => {
   const [colorTheme, setTheme] = useDarkMode();

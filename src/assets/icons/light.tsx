@@ -1,16 +1,9 @@
-import { IconProps } from "../index";
+import { IconProps } from '../index'
 
 const Light = ({ className }: IconProps): JSX.Element => {
   return (
-    <svg
-      width="20"
-      height="20"
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className={className}
-    >
-      <g clip-path="url(#clip0_3_186)">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+      <g clipPath="url(#clip0_3_186)">
         <path
           d="M13.5446 6.45511C12.6451 5.55564 11.3753 4.97363 9.9996 4.97363C8.62394 4.97363 7.3541 5.52919 6.45463 6.45511C5.55516 7.35459 4.97314 8.62443 4.97314 10.0001C4.97314 11.3757 5.55516 12.6456 6.45463 13.5451C7.3541 14.4445 8.62394 15.0265 9.9996 15.0265C11.3753 15.0265 12.6451 14.471 13.5446 13.5451C14.444 12.6456 15.0261 11.3757 15.0261 10.0001C15.0261 8.62443 14.4705 7.35459 13.5446 6.45511Z"
           fill="#858BB2"
@@ -54,7 +47,7 @@ const Light = ({ className }: IconProps): JSX.Element => {
         </clipPath>
       </defs>
     </svg>
-  );
-};
+  )
+}
 
-export default Light;
+export default Light
