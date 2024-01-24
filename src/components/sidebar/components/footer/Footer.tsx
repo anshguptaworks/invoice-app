@@ -1,20 +1,18 @@
-import { getIcons } from "../../../../assets";
-import { IconsType } from "../../../../assets/types";
-import Avatar from "../../../../assets/images/avatar.png";
-import React, { useState } from "react";
-import NextImage from "next/image";
-import { useDarkMode } from "@/src/hooks/useDarkMode";
+import { getIcons } from '../../../../assets'
+import { IconsType } from '../../../../assets/types'
+import Avatar from '../../../../assets/images/Avatar.png'
+import React, { useState } from 'react'
+import NextImage from 'next/image'
+import { useDarkMode } from '@/src/hooks/useDarkMode'
 
 const Footer = (): JSX.Element => {
-  const [colorTheme, setTheme] = useDarkMode();
-  const [darkSide, setDarkSide] = useState(
-    colorTheme === "dark" ? true : false
-  );
+  const [colorTheme, setTheme] = useDarkMode()
+  const [darkSide, setDarkSide] = useState(colorTheme === 'dark' ? true : false)
 
   const toggledarkMode = () => {
-    setTheme(colorTheme);
-    setDarkSide((state) => !state);
-  };
+    setTheme(colorTheme)
+    setDarkSide((state) => !state)
+  }
 
   return (
     <div className="flex flex-row justify-center items-center md:flex-col">
@@ -22,9 +20,7 @@ const Footer = (): JSX.Element => {
         onClick={toggledarkMode}
         className="pb-0 md:pb-6 duration-150 ease-in-out animate-pulse cursor-pointer"
       >
-        {colorTheme === "light"
-          ? getIcons(IconsType.light)
-          : getIcons(IconsType.dark)}
+        {colorTheme === 'light' ? getIcons(IconsType.light) : getIcons(IconsType.dark)}
       </div>
       <hr className="w-full px-6 stroke-grey25  rotate-90 md:rotate-0" />
       <div className="py-0 px-0 md:py-6 md:px-6">
@@ -38,7 +34,7 @@ const Footer = (): JSX.Element => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
