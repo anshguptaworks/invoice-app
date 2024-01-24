@@ -1,4 +1,4 @@
-import { IconProps } from "../index";
+import { IconProps } from '../index'
 
 const Dark = ({ className }: IconProps): JSX.Element => {
   return (
@@ -15,7 +15,7 @@ const Dark = ({ className }: IconProps): JSX.Element => {
         fill="#7E88C3"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default Dark;
+export default Dark

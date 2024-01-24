@@ -1,4 +1,4 @@
-import { IconProps } from "../index";
+import { IconProps } from '../index'
 
 const Arrow = ({ className, pathClassName }: IconProps): JSX.Element => {
   return (
@@ -17,7 +17,7 @@ const Arrow = ({ className, pathClassName }: IconProps): JSX.Element => {
         strokeWidth="2"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default Arrow;
+export default Arrow

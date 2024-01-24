@@ -1,13 +1,13 @@
-import { League_Spartan } from "next/font/google";
-import "../styles/globals.css";
-import type { AppProps } from "next/app";
+import { League_Spartan } from 'next/font/google'
+import '../styles/globals.css'
+import type { AppProps } from 'next/app'
 
 const spartan = League_Spartan({
-  subsets: ["latin"],
+  subsets: ['latin'],
   preload: true,
   adjustFontFallback: true,
-  variable: "--spartan-font",
-});
+  variable: '--spartan-font'
+})
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         `}
       </style>
     </>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp

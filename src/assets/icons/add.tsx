@@ -1,4 +1,4 @@
-import { IconProps } from "../index";
+import { IconProps } from '../index'
 
 const Add = ({ className, pathClassName }: IconProps): JSX.Element => {
   return (
@@ -17,7 +17,7 @@ const Add = ({ className, pathClassName }: IconProps): JSX.Element => {
         fill="#7C5DFA"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default Add;
+export default Add

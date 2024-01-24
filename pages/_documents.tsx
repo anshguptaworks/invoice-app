@@ -1,6 +1,6 @@
-import Document, { Head, Html, Main, NextScript } from "next/document";
-import { GoogleFonts } from "next-google-fonts";
-import * as React from "react";
+import Document, { Head, Html, Main, NextScript } from 'next/document'
+import { GoogleFonts } from 'next-google-fonts'
+import * as React from 'react'
 
 export default class MyDocument extends Document {
   render() {
@@ -13,6 +13,6 @@ export default class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    );
+    )
   }
 }

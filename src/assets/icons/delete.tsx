@@ -1,4 +1,4 @@
-import { IconProps } from "../index";
+import { IconProps } from '../index'
 
 const Delete = ({ className, pathClassName }: IconProps): JSX.Element => {
   return (
@@ -18,7 +18,7 @@ const Delete = ({ className, pathClassName }: IconProps): JSX.Element => {
         fill="#888EB0"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default Delete;
+export default Delete

@@ -12,3 +12,7 @@ body {
   font-family: "League Spartan", sans-serif;
   height: 100vh;
 }
+
+.css-1u9des2-indicatorSeparator{
+  display: none;
+}

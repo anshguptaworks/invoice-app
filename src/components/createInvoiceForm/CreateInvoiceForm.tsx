@@ -1,102 +1,154 @@
-import { getIcons } from "@/src/assets";
-import { IconsType } from "@/src/assets/types";
-import Button from "@/src/components/button/Button";
-import { ButtonVariant } from "@/src/components/button/button.types";
-import Input from "@/src/components/input";
-import { Variant } from "@/src/components/typography";
-import Typography from "@/src/components/typography/Typography";
-import React from "react";
-import { useForm, SubmitHandler } from "react-hook-form";
+import React from 'react'
+import { useForm, SubmitHandler } from 'react-hook-form'
+import Typography from '@/src/components/typography/Typography'
+import { Variant } from '@/src/components/typography'
+import FormInput from '@/src/organisms/formInput/FormInput'
+import Button from '@/src/components/button/Button'
+import { ButtonVariant } from '@/src/components/button/button.types'
+import ReactSelect from '../ReactSelect/ReactSelect'
+
+interface IForm {
+  streetAddress: string
+  city: string
+  postCode: string
+  country: string
+  clientName: string
+  clientEmail: string
+  clientStreetAddress: string
+  clientCity: string
+  clientPostCode: string
+  clientCountry: string
+  issueDate: string
+}
+export const colourOptions = [
+  { value: 'red', label: 'Red' },
+  { value: 'green', label: 'Green' },
+  { value: 'blue', label: 'Blue' }
+]
 
 const CreateInvoiceForm = (): JSX.Element => {
-  interface IForm {
-    name: string;
-    city: string;
-    postCode: string;
-    country: string;
-    clientName: string;
-  }
-
   const {
     register,
     handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm<IForm>();
-  const onSubmit: SubmitHandler<IForm> = (data) => console.log(data);
+    control,
+    formState: { errors }
+  } = useForm<IForm>()
 
-  console.log(watch("name"));
+  const onSubmit: SubmitHandler<IForm> = (data) => console.log(data)
+
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="flex justify-start items-start flex-col gap-6 w-full">
-          <Typography
-            size={Variant.Body1}
-            fontWeight="bold"
-            className="text-primary"
-          >
+          <Typography size={Variant.Body1} fontWeight="bold" className="text-primary">
             Bill From
           </Typography>
-          <Input {...register("name", { required: true })} title="Name" />
+          <FormInput
+            control={control}
+            id="streetAddress"
+            placeholder="Enter Street Address"
+            {...register('streetAddress', { required: 'Street Address is required' })}
+            label="Street Address"
+          />
+          {errors.streetAddress && <span>{errors.streetAddress?.message}</span>}
+          <div className="flex justify-center items-center gap-6">
+            <FormInput
+              control={control}
+              id="city"
+              placeholder="Enter City"
+              {...register('city', { required: 'City is required' })}
+              label="City"
+            />
+            {errors.city && <span>{errors.city?.message}</span>}
+
+            <FormInput
+              control={control}
+              id="postCode"
+              placeholder="Enter Post Code"
+              {...register('postCode', { required: 'Post Code is required' })}
+              label="postCode"
+            />
+            {errors.city && <span>{errors.postCode?.message}</span>}
+
+            <FormInput
+              control={control}
+              id="country"
+              placeholder="Enter Country"
+              {...register('country', { required: 'Country is required' })}
+              label="Country"
+            />
+            {errors.country && <span>{errors.country?.message}</span>}
+          </div>
+          <Typography size={Variant.Body1} fontWeight="bold" className="text-primary">
+            Bill From
+          </Typography>
+          <FormInput
+            control={control}
+            id="clientName"
+            placeholder="Enter Client’s Name"
+            {...register('clientName', { required: 'Client’s Name is required' })}
+            label="Client’s Name"
+          />
+          {errors.streetAddress && <span>{errors.streetAddress?.message}</span>}
+          <FormInput
+            control={control}
+            id="clientEmail"
+            placeholder="Enter Client’s Email"
+            {...register('clientEmail', { required: 'Client’s Email is required' })}
+            label="Client’s Email"
+          />
+          {errors.streetAddress && <span>{errors.clientEmail?.message}</span>}
+
+          <FormInput
+            control={control}
+            id="clientStreetAddress"
+            placeholder="Enter Street Address"
+            {...register('clientStreetAddress', { required: 'Street Addressis required' })}
+            label="Street Address"
+          />
+          {errors.streetAddress && <span>{errors.clientStreetAddress?.message}</span>}
 
           <div className="flex justify-center items-center gap-6">
-            <Input {...register("city", { required: true })} title="City" />
-            <Input
-              {...register("postCode", { required: true })}
-              title="Post Code"
+            <FormInput
+              control={control}
+              id="clientCity"
+              placeholder="Enter City"
+              {...register('clientCity', { required: 'City is required' })}
+              label="City"
             />
-            <Input
-              {...register("country", { required: true })}
-              title="Country"
+            {errors.city && <span>{errors.clientCity?.message}</span>}
+
+            <FormInput
+              control={control}
+              id="clientPostCode"
+              placeholder="Enter Post Code"
+              {...register('clientPostCode', { required: 'Post Code is required' })}
+              label="postCode"
             />
+            {errors.city && <span>{errors.clientPostCode?.message}</span>}
+
+            <FormInput
+              control={control}
+              id="clientCountry"
+              placeholder="Enter Country"
+              {...register('clientCountry', { required: 'Country is required' })}
+              label="Country"
+            />
+            {errors.country && <span>{errors.clientCountry?.message}</span>}
           </div>
 
-          <Typography
-            size={Variant.Body1}
-            fontWeight="bold"
-            className="text-primary mb-6"
-          >
-            Bill To
-          </Typography>
-          <Input
-            {...register("clientName", { required: true })}
-            title="Client’s Name"
+          <FormInput
+            control={control}
+            id="issueDate"
+            placeholder="Enter Issue Date"
+            {...register('issueDate', { required: 'Issue Date is required' })}
+            label="Issue Date"
+            type="date"
           />
-          <Input
-            {...register("clientName", { required: true })}
-            title="Client’s Email"
-            placeholder="e.g. email@example.com"
-          />
-          <Input title="Street Address" />
-          <div className="flex justify-center items-center gap-6 mt-6">
-            <Input title="City" />
-            <Input title="Post Code" />
-            <Input title="Country" />
-          </div>
-          <div className="flex justify-center items-center gap-6 w-full">
-            <Input type="date" title="Invoice Date" />
-            <Input icon={IconsType.arrow} title="Payment Terms" />
-          </div>
-          <Input
-            placeholder="e.g. Graphic Design Service"
-            title="Project Description"
-          />
-          <div className="text-[1.125rem] font-bold text-grey400">
-            Item List
-          </div>
-          <Input title="Item Name" />
-          <div className="flex justify-center items-center gap-6 mt-6">
-            <Input title="Qty." />
-            <Input title="Price" />
-            <Input
-              disabled
-              value="1"
-              inputClassName="border-none cursor-not-allowed "
-              classname="cursor-not-allowed bg-transparent"
-              title="Total"
-            />
-            <button className="pt-4">{getIcons(IconsType.delete)}</button>
-          </div>
+          {errors.country && <span>{errors.issueDate?.message}</span>}
+
+          <ReactSelect label="Payment Terms" options={colourOptions} />
+
           <Button
             buttonType="submit"
             variant={ButtonVariant.Secondary}
@@ -106,10 +158,9 @@ const CreateInvoiceForm = (): JSX.Element => {
             + Add New Item
           </Button>
         </div>
-        {errors && <span>This field is required</span>}
       </form>
     </>
-  );
-};
+  )
+}
 
-export default CreateInvoiceForm;
+export default CreateInvoiceForm

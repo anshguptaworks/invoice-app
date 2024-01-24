@@ -1,4 +1,4 @@
-import { IconProps } from "../index";
+import { IconProps } from '../index'
 
 const Background = ({ className }: IconProps): JSX.Element => {
   return (
@@ -47,65 +47,20 @@ const Background = ({ className }: IconProps): JSX.Element => {
         />
       </g>
       <path d="M52.6113 47V0.5L81.84 18V65L52.6113 47Z" fill="#7C6EF5" />
-      <path
-        d="M99.3779 401.953V314L154.912 347.101V436L99.3779 401.953Z"
-        fill="#5D31F5"
-      />
-      <path
-        d="M177.32 837.953V750L232.855 783.101V872L177.32 837.953Z"
-        fill="#45A1FF"
-      />
-      <path
-        d="M1213.96 231.953V144L1269.5 177.101V266L1213.96 231.953Z"
-        fill="#E4E2FD"
-      />
-      <path
-        d="M1100.95 193.744V144L1132.12 162.721V213L1100.95 193.744Z"
-        fill="#D2EDFF"
-      />
-      <path
-        d="M1347.44 718.953V631L1402.98 664.101V753L1347.44 718.953Z"
-        fill="#096DD9"
-      />
-      <path
-        d="M148.092 108.953V21L203.377 54.1008V143L148.092 108.953Z"
-        fill="#5D31F5"
-      />
-      <rect
-        x="48.8428"
-        y="111"
-        width="77.6861"
-        height="80"
-        stroke="#D2EDFF"
-        strokeWidth="10"
-      />
+      <path d="M99.3779 401.953V314L154.912 347.101V436L99.3779 401.953Z" fill="#5D31F5" />
+      <path d="M177.32 837.953V750L232.855 783.101V872L177.32 837.953Z" fill="#45A1FF" />
+      <path d="M1213.96 231.953V144L1269.5 177.101V266L1213.96 231.953Z" fill="#E4E2FD" />
+      <path d="M1100.95 193.744V144L1132.12 162.721V213L1100.95 193.744Z" fill="#D2EDFF" />
+      <path d="M1347.44 718.953V631L1402.98 664.101V753L1347.44 718.953Z" fill="#096DD9" />
+      <path d="M148.092 108.953V21L203.377 54.1008V143L148.092 108.953Z" fill="#5D31F5" />
+      <rect x="48.8428" y="111" width="77.6861" height="80" stroke="#D2EDFF" strokeWidth="10" />
       <rect x="77.9434" y="792" width="58.4574" height="60" fill="#4056E0" />
       <rect x="1259.76" y="93" width="116.915" height="120" fill="#5D31F5" />
       <rect x="1215.91" width="38.9716" height="40" fill="#00A3FF" />
-      <rect
-        x="187.192"
-        y="55"
-        width="136.143"
-        height="140"
-        stroke="#45A1FF"
-        strokeWidth="10"
-      />
-      <rect
-        x="247.598"
-        y="761"
-        width="119.581"
-        height="123"
-        stroke="#160042"
-        strokeWidth="10"
-      />
-      <path
-        d="M60.5752 589.966L165.596 652.079L60.6771 714.374L60.5752 589.966Z"
-        fill="#FFE5D3"
-      />
-      <path
-        d="M232.753 566.814L305.21 609.667L232.824 652.646L232.753 566.814Z"
-        fill="#FFF0F1"
-      />
+      <rect x="187.192" y="55" width="136.143" height="140" stroke="#45A1FF" strokeWidth="10" />
+      <rect x="247.598" y="761" width="119.581" height="123" stroke="#160042" strokeWidth="10" />
+      <path d="M60.5752 589.966L165.596 652.079L60.6771 714.374L60.5752 589.966Z" fill="#FFE5D3" />
+      <path d="M232.753 566.814L305.21 609.667L232.824 652.646L232.753 566.814Z" fill="#FFF0F1" />
       <circle cx="354.692" cy="118" r="2" fill="#D2EDFF" />
       <circle cx="363.692" cy="118" r="2" fill="#D2EDFF" />
       <circle cx="372.692" cy="118" r="2" fill="#D2EDFF" />
@@ -689,356 +644,56 @@ const Background = ({ className }: IconProps): JSX.Element => {
       <circle cx="1237.19" cy="836" r="3" fill="#BFBFBF" />
       <circle cx="1261.52" cy="836" r="3" fill="#BFBFBF" />
       <circle cx="1285.84" cy="836" r="3" fill="#BFBFBF" />
-      <circle
-        cx="344.95"
-        cy="731"
-        r="2"
-        transform="rotate(-90 344.95 731)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="344.95"
-        cy="709"
-        r="2"
-        transform="rotate(-90 344.95 709)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="344.95"
-        cy="687"
-        r="2"
-        transform="rotate(-90 344.95 687)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="344.95"
-        cy="665"
-        r="2"
-        transform="rotate(-90 344.95 665)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="344.95"
-        cy="643"
-        r="2"
-        transform="rotate(-90 344.95 643)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="344.95"
-        cy="621"
-        r="2"
-        transform="rotate(-90 344.95 621)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="344.95"
-        cy="599"
-        r="2"
-        transform="rotate(-90 344.95 599)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="344.95"
-        cy="577"
-        r="2"
-        transform="rotate(-90 344.95 577)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="344.95"
-        cy="555"
-        r="2"
-        transform="rotate(-90 344.95 555)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="344.95"
-        cy="533"
-        r="2"
-        transform="rotate(-90 344.95 533)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1166.28"
-        cy="305"
-        r="2"
-        transform="rotate(-90 1166.28 305)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1166.28"
-        cy="283"
-        r="2"
-        transform="rotate(-90 1166.28 283)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1166.28"
-        cy="261"
-        r="2"
-        transform="rotate(-90 1166.28 261)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1166.28"
-        cy="239"
-        r="2"
-        transform="rotate(-90 1166.28 239)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1166.28"
-        cy="217"
-        r="2"
-        transform="rotate(-90 1166.28 217)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1166.28"
-        cy="195"
-        r="2"
-        transform="rotate(-90 1166.28 195)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1166.28"
-        cy="173"
-        r="2"
-        transform="rotate(-90 1166.28 173)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1166.28"
-        cy="151"
-        r="2"
-        transform="rotate(-90 1166.28 151)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1166.28"
-        cy="129"
-        r="2"
-        transform="rotate(-90 1166.28 129)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1166.28"
-        cy="107"
-        r="2"
-        transform="rotate(-90 1166.28 107)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1205.25"
-        cy="703"
-        r="2"
-        transform="rotate(-90 1205.25 703)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1205.25"
-        cy="679"
-        r="2"
-        transform="rotate(-90 1205.25 679)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1205.25"
-        cy="655"
-        r="2"
-        transform="rotate(-90 1205.25 655)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1205.25"
-        cy="631"
-        r="2"
-        transform="rotate(-90 1205.25 631)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1205.25"
-        cy="607"
-        r="2"
-        transform="rotate(-90 1205.25 607)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1205.25"
-        cy="583"
-        r="2"
-        transform="rotate(-90 1205.25 583)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1205.25"
-        cy="559"
-        r="2"
-        transform="rotate(-90 1205.25 559)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1205.25"
-        cy="535"
-        r="2"
-        transform="rotate(-90 1205.25 535)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1205.25"
-        cy="511"
-        r="2"
-        transform="rotate(-90 1205.25 511)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1205.25"
-        cy="487"
-        r="2"
-        transform="rotate(-90 1205.25 487)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1227.25"
-        cy="703"
-        r="2"
-        transform="rotate(-90 1227.25 703)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1227.25"
-        cy="679"
-        r="2"
-        transform="rotate(-90 1227.25 679)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1227.25"
-        cy="655"
-        r="2"
-        transform="rotate(-90 1227.25 655)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1227.25"
-        cy="631"
-        r="2"
-        transform="rotate(-90 1227.25 631)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1227.25"
-        cy="607"
-        r="2"
-        transform="rotate(-90 1227.25 607)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1227.25"
-        cy="583"
-        r="2"
-        transform="rotate(-90 1227.25 583)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1227.25"
-        cy="559"
-        r="2"
-        transform="rotate(-90 1227.25 559)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1227.25"
-        cy="535"
-        r="2"
-        transform="rotate(-90 1227.25 535)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1227.25"
-        cy="511"
-        r="2"
-        transform="rotate(-90 1227.25 511)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1227.25"
-        cy="487"
-        r="2"
-        transform="rotate(-90 1227.25 487)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1249.25"
-        cy="703"
-        r="2"
-        transform="rotate(-90 1249.25 703)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1249.25"
-        cy="679"
-        r="2"
-        transform="rotate(-90 1249.25 679)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1249.25"
-        cy="655"
-        r="2"
-        transform="rotate(-90 1249.25 655)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1249.25"
-        cy="631"
-        r="2"
-        transform="rotate(-90 1249.25 631)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1249.25"
-        cy="607"
-        r="2"
-        transform="rotate(-90 1249.25 607)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1249.25"
-        cy="583"
-        r="2"
-        transform="rotate(-90 1249.25 583)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1249.25"
-        cy="559"
-        r="2"
-        transform="rotate(-90 1249.25 559)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1249.25"
-        cy="535"
-        r="2"
-        transform="rotate(-90 1249.25 535)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1249.25"
-        cy="511"
-        r="2"
-        transform="rotate(-90 1249.25 511)"
-        fill="#EA336F"
-      />
-      <circle
-        cx="1249.25"
-        cy="487"
-        r="2"
-        transform="rotate(-90 1249.25 487)"
-        fill="#EA336F"
-      />
+      <circle cx="344.95" cy="731" r="2" transform="rotate(-90 344.95 731)" fill="#EA336F" />
+      <circle cx="344.95" cy="709" r="2" transform="rotate(-90 344.95 709)" fill="#EA336F" />
+      <circle cx="344.95" cy="687" r="2" transform="rotate(-90 344.95 687)" fill="#EA336F" />
+      <circle cx="344.95" cy="665" r="2" transform="rotate(-90 344.95 665)" fill="#EA336F" />
+      <circle cx="344.95" cy="643" r="2" transform="rotate(-90 344.95 643)" fill="#EA336F" />
+      <circle cx="344.95" cy="621" r="2" transform="rotate(-90 344.95 621)" fill="#EA336F" />
+      <circle cx="344.95" cy="599" r="2" transform="rotate(-90 344.95 599)" fill="#EA336F" />
+      <circle cx="344.95" cy="577" r="2" transform="rotate(-90 344.95 577)" fill="#EA336F" />
+      <circle cx="344.95" cy="555" r="2" transform="rotate(-90 344.95 555)" fill="#EA336F" />
+      <circle cx="344.95" cy="533" r="2" transform="rotate(-90 344.95 533)" fill="#EA336F" />
+      <circle cx="1166.28" cy="305" r="2" transform="rotate(-90 1166.28 305)" fill="#EA336F" />
+      <circle cx="1166.28" cy="283" r="2" transform="rotate(-90 1166.28 283)" fill="#EA336F" />
+      <circle cx="1166.28" cy="261" r="2" transform="rotate(-90 1166.28 261)" fill="#EA336F" />
+      <circle cx="1166.28" cy="239" r="2" transform="rotate(-90 1166.28 239)" fill="#EA336F" />
+      <circle cx="1166.28" cy="217" r="2" transform="rotate(-90 1166.28 217)" fill="#EA336F" />
+      <circle cx="1166.28" cy="195" r="2" transform="rotate(-90 1166.28 195)" fill="#EA336F" />
+      <circle cx="1166.28" cy="173" r="2" transform="rotate(-90 1166.28 173)" fill="#EA336F" />
+      <circle cx="1166.28" cy="151" r="2" transform="rotate(-90 1166.28 151)" fill="#EA336F" />
+      <circle cx="1166.28" cy="129" r="2" transform="rotate(-90 1166.28 129)" fill="#EA336F" />
+      <circle cx="1166.28" cy="107" r="2" transform="rotate(-90 1166.28 107)" fill="#EA336F" />
+      <circle cx="1205.25" cy="703" r="2" transform="rotate(-90 1205.25 703)" fill="#EA336F" />
+      <circle cx="1205.25" cy="679" r="2" transform="rotate(-90 1205.25 679)" fill="#EA336F" />
+      <circle cx="1205.25" cy="655" r="2" transform="rotate(-90 1205.25 655)" fill="#EA336F" />
+      <circle cx="1205.25" cy="631" r="2" transform="rotate(-90 1205.25 631)" fill="#EA336F" />
+      <circle cx="1205.25" cy="607" r="2" transform="rotate(-90 1205.25 607)" fill="#EA336F" />
+      <circle cx="1205.25" cy="583" r="2" transform="rotate(-90 1205.25 583)" fill="#EA336F" />
+      <circle cx="1205.25" cy="559" r="2" transform="rotate(-90 1205.25 559)" fill="#EA336F" />
+      <circle cx="1205.25" cy="535" r="2" transform="rotate(-90 1205.25 535)" fill="#EA336F" />
+      <circle cx="1205.25" cy="511" r="2" transform="rotate(-90 1205.25 511)" fill="#EA336F" />
+      <circle cx="1205.25" cy="487" r="2" transform="rotate(-90 1205.25 487)" fill="#EA336F" />
+      <circle cx="1227.25" cy="703" r="2" transform="rotate(-90 1227.25 703)" fill="#EA336F" />
+      <circle cx="1227.25" cy="679" r="2" transform="rotate(-90 1227.25 679)" fill="#EA336F" />
+      <circle cx="1227.25" cy="655" r="2" transform="rotate(-90 1227.25 655)" fill="#EA336F" />
+      <circle cx="1227.25" cy="631" r="2" transform="rotate(-90 1227.25 631)" fill="#EA336F" />
+      <circle cx="1227.25" cy="607" r="2" transform="rotate(-90 1227.25 607)" fill="#EA336F" />
+      <circle cx="1227.25" cy="583" r="2" transform="rotate(-90 1227.25 583)" fill="#EA336F" />
+      <circle cx="1227.25" cy="559" r="2" transform="rotate(-90 1227.25 559)" fill="#EA336F" />
+      <circle cx="1227.25" cy="535" r="2" transform="rotate(-90 1227.25 535)" fill="#EA336F" />
+      <circle cx="1227.25" cy="511" r="2" transform="rotate(-90 1227.25 511)" fill="#EA336F" />
+      <circle cx="1227.25" cy="487" r="2" transform="rotate(-90 1227.25 487)" fill="#EA336F" />
+      <circle cx="1249.25" cy="703" r="2" transform="rotate(-90 1249.25 703)" fill="#EA336F" />
+      <circle cx="1249.25" cy="679" r="2" transform="rotate(-90 1249.25 679)" fill="#EA336F" />
+      <circle cx="1249.25" cy="655" r="2" transform="rotate(-90 1249.25 655)" fill="#EA336F" />
+      <circle cx="1249.25" cy="631" r="2" transform="rotate(-90 1249.25 631)" fill="#EA336F" />
+      <circle cx="1249.25" cy="607" r="2" transform="rotate(-90 1249.25 607)" fill="#EA336F" />
+      <circle cx="1249.25" cy="583" r="2" transform="rotate(-90 1249.25 583)" fill="#EA336F" />
+      <circle cx="1249.25" cy="559" r="2" transform="rotate(-90 1249.25 559)" fill="#EA336F" />
+      <circle cx="1249.25" cy="535" r="2" transform="rotate(-90 1249.25 535)" fill="#EA336F" />
+      <circle cx="1249.25" cy="511" r="2" transform="rotate(-90 1249.25 511)" fill="#EA336F" />
+      <circle cx="1249.25" cy="487" r="2" transform="rotate(-90 1249.25 487)" fill="#EA336F" />
       <defs>
         <filter
           id="filter0_b_183_3286"
@@ -1051,11 +706,7 @@ const Background = ({ className }: IconProps): JSX.Element => {
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="2" />
-          <feComposite
-            in2="SourceAlpha"
-            operator="in"
-            result="effect1_backgroundBlur_183_3286"
-          />
+          <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_183_3286" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1074,11 +725,7 @@ const Background = ({ className }: IconProps): JSX.Element => {
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="2" />
-          <feComposite
-            in2="SourceAlpha"
-            operator="in"
-            result="effect1_backgroundBlur_183_3286"
-          />
+          <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_183_3286" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1097,11 +744,7 @@ const Background = ({ className }: IconProps): JSX.Element => {
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="2" />
-          <feComposite
-            in2="SourceAlpha"
-            operator="in"
-            result="effect1_backgroundBlur_183_3286"
-          />
+          <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_183_3286" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1120,11 +763,7 @@ const Background = ({ className }: IconProps): JSX.Element => {
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="2" />
-          <feComposite
-            in2="SourceAlpha"
-            operator="in"
-            result="effect1_backgroundBlur_183_3286"
-          />
+          <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_183_3286" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1143,11 +782,7 @@ const Background = ({ className }: IconProps): JSX.Element => {
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="2" />
-          <feComposite
-            in2="SourceAlpha"
-            operator="in"
-            result="effect1_backgroundBlur_183_3286"
-          />
+          <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_183_3286" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1166,11 +801,7 @@ const Background = ({ className }: IconProps): JSX.Element => {
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="2" />
-          <feComposite
-            in2="SourceAlpha"
-            operator="in"
-            result="effect1_backgroundBlur_183_3286"
-          />
+          <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_183_3286" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1785,7 +1416,7 @@ const Background = ({ className }: IconProps): JSX.Element => {
         </linearGradient>
       </defs>
     </svg>
-  );
-};
+  )
+}
 
-export default Background;
+export default Background

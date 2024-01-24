@@ -1,13 +1,8 @@
-import { IconProps } from "../index";
+import { IconProps } from '../index'
 
 const Logo = ({ className }: IconProps): JSX.Element => {
   return (
-    <svg
-      viewBox="0 0 40 38"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className={className}
-    >
+    <svg viewBox="0 0 40 38" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -15,7 +10,7 @@ const Logo = ({ className }: IconProps): JSX.Element => {
         fill="white"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default Logo;
+export default Logo
